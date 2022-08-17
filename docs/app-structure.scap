@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="F35DA92E-FD5C-4A26-9368-11D832C438B1">
+  <Notes>
+    <Note ID="1" FontSize="12.0" Position="515.5,63.2" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7221018075942993 0.8462901711463928 0.9162387251853943</Border>
+        <Fill>0.786 0.9204 0.9961</Fill>
+      </Appearance>
+      <String>SceneManager
+(Simple JS object)
+
+Catches events from scenes (including background)
+
+Commands scenes to move or do stuff.
+
+Controls background (just another scene).
+
+Commands Scene Container (apply filters).</String>
+      <ConnectedNoteIDs>2-6, 12, 14</ConnectedNoteIDs>
+      <PointsToNoteIDs>2-5, 12, 14</PointsToNoteIDs>
+      <Formatting>
+        <FormatRange Bold="Yes">0,13</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="2" FontSize="12.0" Position="157.3,549.9" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>Scene1
+Scenes are the containers and coordinators of objects.
+
+They emit events that are used by the SceneManager to coordinate scenes.
+
+They subscribe to events emitted by their objects and orchestrate reactions to them.</String>
+      <ConnectedNoteIDs>1, 9, 14-16</ConnectedNoteIDs>
+      <PointsToNoteIDs>1, 9, 15-16</PointsToNoteIDs>
+      <Formatting>
+        <FormatRange Bold="Yes">0,7</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="3" FontSize="12.0" Position="392.6,567.4" Width="57.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>Scene2</String>
+      <ConnectedNoteIDs>1, 14</ConnectedNoteIDs>
+      <PointsToNoteIDs>1</PointsToNoteIDs>
+      <Formatting>
+        <FormatRange Bold="Yes">0,6</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="4" FontSize="12.0" Position="457.6,567.0" Width="57.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>Scene3</String>
+      <ConnectedNoteIDs>1, 14</ConnectedNoteIDs>
+      <PointsToNoteIDs>1</PointsToNoteIDs>
+      <Formatting>
+        <FormatRange Bold="Yes">0,6</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="5" FontSize="12.0" Position="522.6,567.4" Width="57.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>Scene4</String>
+      <ConnectedNoteIDs>1, 14</ConnectedNoteIDs>
+      <PointsToNoteIDs>1</PointsToNoteIDs>
+      <Formatting>
+        <FormatRange Bold="Yes">0,6</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="6" FontSize="12.0" Position="432.5,1.2" Width="38.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>App</String>
+      <ConnectedNoteIDs>1, 14</ConnectedNoteIDs>
+      <Formatting>
+        <FormatRange Bold="Yes">0,3</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="9" FontSize="12.0" Position="61.0,791.0" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>
+        <Fill>0.9812 0.9304 0.6851</Fill>
+      </Appearance>
+      <String>Object1
+Objects are stuff shown on screen.
+
+They may be interactive in some way.
+
+They are commanded by their scene to do things.
+
+They may be reused across scenes.
+
+They inherit from Container but can be as complex as they desire.</String>
+      <ConnectedNoteIDs>2</ConnectedNoteIDs>
+      <PointsToNoteIDs>2</PointsToNoteIDs>
+      <Formatting>
+        <FormatRange Bold="Yes">0,8</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="12" FontSize="12.0" Position="20.0,409.2" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>Background
+
+Background is a special scene that is present all the time. It contains objects that are, well, backgrounds, and is managed like any other scene.</String>
+      <ConnectedNoteIDs>1, 14</ConnectedNoteIDs>
+      <PointsToNoteIDs>1</PointsToNoteIDs>
+      <Formatting>
+        <FormatRange Bold="Yes">0,12</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="13" FontSize="12.0" Position="839.1,99.2" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <TextColor>0.0 0.0 0.0</TextColor>
+      </Appearance>
+      <String>Mixin strategy
+
+Mixins are just functions that monkey-patch the PIXI standard objects when executed.
+
+addPositioningToDisplayObject(), for example, will add the moveTo() and tweenMoveTo() methods to the PIXI.DisplayObject class.</String>
+      <Formatting>
+        <FormatRange Bold="Yes">0,16</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="14" FontSize="12.0" Position="107.7,84.2" Width="254.5">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
+        <Fill>0.7837 0.9758 0.6903</Fill>
+      </Appearance>
+      <String>Scene Container
+(Container object)
+
+Applies global filters.
+
+Contains all the scenes, including background.
+
+Is commanded by SceneManager.
+
+Does not react to scene events directly.</String>
+      <ConnectedNoteIDs>1-6, 12</ConnectedNoteIDs>
+      <Formatting>
+        <FormatRange Bold="Yes">0,16</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="15" FontSize="12.0" Position="272.0,791.0" Width="58.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>
+        <Fill>0.9812 0.9304 0.6851</Fill>
+      </Appearance>
+      <String>Object2</String>
+      <ConnectedNoteIDs>2</ConnectedNoteIDs>
+      <PointsToNoteIDs>2</PointsToNoteIDs>
+      <Formatting>
+        <FormatRange Bold="Yes">0,7</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="16" FontSize="12.0" Position="340.0,791.0" Width="58.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>
+        <Fill>0.9812 0.9304 0.6851</Fill>
+      </Appearance>
+      <String>Object3</String>
+      <ConnectedNoteIDs>2</ConnectedNoteIDs>
+      <PointsToNoteIDs>2</PointsToNoteIDs>
+      <Formatting>
+        <FormatRange Bold="Yes">0,7</FormatRange>
+      </Formatting>
+    </Note>
+  </Notes>
+  <BackgroundShapes/>
+  <AutoFit>3-6, 15-16</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="DA39F1A4-424F-4BA2-8DF7-F19DF3EF607C" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.668962 0.810287 0.895092</BorderColor>
+      <FillColor>0.743291 0.900319 0.994547</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="3264506B-5576-4D17-8230-1D0951D3C6E0" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.669404 0.885265 0.567007</BorderColor>
+      <FillColor>0.743783 0.983628 0.630008</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="EB0CFE5C-5F73-4652-9444-9AD42A5FA742" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.989115 0.814114 0.999483</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="18AB4723-D5B7-4E11-898A-3A16FE8FA7F6" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.894547 0.707772 0.715904</BorderColor>
+      <FillColor>0.993942 0.786413 0.795449</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="343FDB21-9915-43AF-B682-17CDE24CC058" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.877748 0.828289 0.562126</BorderColor>
+      <FillColor>0.975275 0.920321 0.624585</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="E44BF8A1-DE7A-4399-A1A4-E74FE16E0582" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>0.985954 0.0 0.02694</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="4D49A52D-DD3E-44E2-B0F3-7913178F570D" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>0.999734 0.986357 0.931306</BackgroundColor>
+    <DefaultFont>Roboto-Regular</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>
