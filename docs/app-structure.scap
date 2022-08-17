@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ScappleDocument Version="1.2" ID="F35DA92E-FD5C-4A26-9368-11D832C438B1">
   <Notes>
-    <Note ID="1" FontSize="12.0" Position="515.5,63.2" Width="200.0">
+    <Note ID="1" FontSize="12.0" Position="515.5,200.8" Width="200.0">
       <Appearance>
         <Alignment>Left</Alignment>
         <Border Weight="1">0.7221018075942993 0.8462901711463928 0.9162387251853943</Border>
@@ -23,7 +23,7 @@ Commands Scene Container (apply filters).</String>
         <FormatRange Bold="Yes">0,13</FormatRange>
       </Formatting>
     </Note>
-    <Note ID="2" FontSize="12.0" Position="157.3,549.9" Width="200.0">
+    <Note ID="2" FontSize="12.0" Position="157.3,687.6" Width="200.0">
       <Appearance>
         <Alignment>Left</Alignment>
         <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
@@ -41,7 +41,7 @@ They subscribe to events emitted by their objects and orchestrate reactions to t
         <FormatRange Bold="Yes">0,7</FormatRange>
       </Formatting>
     </Note>
-    <Note ID="3" FontSize="12.0" Position="392.6,567.4" Width="57.0">
+    <Note ID="3" FontSize="12.0" Position="392.6,705.0" Width="57.0">
       <Appearance>
         <Alignment>Left</Alignment>
         <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
@@ -54,7 +54,7 @@ They subscribe to events emitted by their objects and orchestrate reactions to t
         <FormatRange Bold="Yes">0,6</FormatRange>
       </Formatting>
     </Note>
-    <Note ID="4" FontSize="12.0" Position="457.6,567.0" Width="57.0">
+    <Note ID="4" FontSize="12.0" Position="457.6,704.6" Width="57.0">
       <Appearance>
         <Alignment>Left</Alignment>
         <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
@@ -67,7 +67,7 @@ They subscribe to events emitted by their objects and orchestrate reactions to t
         <FormatRange Bold="Yes">0,6</FormatRange>
       </Formatting>
     </Note>
-    <Note ID="5" FontSize="12.0" Position="522.6,567.4" Width="57.0">
+    <Note ID="5" FontSize="12.0" Position="522.6,705.0" Width="57.0">
       <Appearance>
         <Alignment>Left</Alignment>
         <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
@@ -80,19 +80,19 @@ They subscribe to events emitted by their objects and orchestrate reactions to t
         <FormatRange Bold="Yes">0,6</FormatRange>
       </Formatting>
     </Note>
-    <Note ID="6" FontSize="12.0" Position="432.5,1.2" Width="38.0">
+    <Note ID="6" FontSize="24.0" Position="584.3,54.2" Width="59.0">
       <Appearance>
         <Alignment>Left</Alignment>
         <Border Weight="1">0.9189183115959167 0.7627586722373962 0.7658078670501709</Border>
         <Fill>0.999 0.83 0.8333</Fill>
       </Appearance>
       <String>App</String>
-      <ConnectedNoteIDs>1, 14</ConnectedNoteIDs>
+      <ConnectedNoteIDs>1</ConnectedNoteIDs>
       <Formatting>
         <FormatRange Bold="Yes">0,3</FormatRange>
       </Formatting>
     </Note>
-    <Note ID="9" FontSize="12.0" Position="61.0,791.0" Width="200.0">
+    <Note ID="9" FontSize="12.0" Position="61.0,928.7" Width="200.0">
       <Appearance>
         <Alignment>Left</Alignment>
         <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>
@@ -114,7 +114,7 @@ They inherit from Container but can be as complex as they desire.</String>
         <FormatRange Bold="Yes">0,8</FormatRange>
       </Formatting>
     </Note>
-    <Note ID="12" FontSize="12.0" Position="20.0,409.2" Width="200.0">
+    <Note ID="12" FontSize="12.0" Position="20.0,546.8" Width="200.0">
       <Appearance>
         <Alignment>Left</Alignment>
         <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
@@ -129,7 +129,7 @@ Background is a special scene that is present all the time. It contains objects 
         <FormatRange Bold="Yes">0,12</FormatRange>
       </Formatting>
     </Note>
-    <Note ID="13" FontSize="12.0" Position="839.1,99.2" Width="200.0">
+    <Note ID="13" FontSize="12.0" Position="839.1,236.8" Width="200.0">
       <Appearance>
         <Alignment>Left</Alignment>
         <TextColor>0.0 0.0 0.0</TextColor>
@@ -143,7 +143,7 @@ addPositioningToDisplayObject(), for example, will add the moveTo() and tweenMov
         <FormatRange Bold="Yes">0,16</FormatRange>
       </Formatting>
     </Note>
-    <Note ID="14" FontSize="12.0" Position="107.7,84.2" Width="254.5">
+    <Note ID="14" FontSize="12.0" Position="107.7,221.8" Width="254.5">
       <Appearance>
         <Alignment>Left</Alignment>
         <Border Weight="1">0.7199764847755432 0.8974809646606445 0.6336729526519775</Border>
@@ -159,12 +159,12 @@ Contains all the scenes, including background.
 Is commanded by SceneManager.
 
 Does not react to scene events directly.</String>
-      <ConnectedNoteIDs>1-6, 12</ConnectedNoteIDs>
+      <ConnectedNoteIDs>1-5, 12</ConnectedNoteIDs>
       <Formatting>
         <FormatRange Bold="Yes">0,16</FormatRange>
       </Formatting>
     </Note>
-    <Note ID="15" FontSize="12.0" Position="272.0,791.0" Width="58.0">
+    <Note ID="15" FontSize="12.0" Position="272.0,928.7" Width="58.0">
       <Appearance>
         <Alignment>Left</Alignment>
         <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>
@@ -177,7 +177,7 @@ Does not react to scene events directly.</String>
         <FormatRange Bold="Yes">0,7</FormatRange>
       </Formatting>
     </Note>
-    <Note ID="16" FontSize="12.0" Position="340.0,791.0" Width="58.0">
+    <Note ID="16" FontSize="12.0" Position="340.0,928.7" Width="58.0">
       <Appearance>
         <Alignment>Left</Alignment>
         <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>

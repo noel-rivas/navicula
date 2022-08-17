@@ -11,7 +11,7 @@ export function addPositioningToDisplayObject() {
     let defaults = {
       x: 0,
       y: 0,
-      easing: TWEEN.Easing.linear,
+      easing: TWEEN.Easing.Linear,
     }
     
     let settings = Object.assign(defaults, options)
