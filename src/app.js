@@ -6,7 +6,7 @@ import SceneManager from './SceneManager.js'
 // Apply Mixins to enhance PIXI classes
 Object.assign(PIXI.DisplayObject.prototype, DisplayObjectPositioningMixin);
 
-function doMagic() {
+function tellStories() {
   const app = new PIXI.Application({
     width: 640,
     height: 200,
@@ -29,5 +29,5 @@ function doMagic() {
 }
 
 window.onload = function() {
-  doMagic();
+  tellStories();
 }
