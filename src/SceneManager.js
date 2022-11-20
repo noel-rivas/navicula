@@ -14,7 +14,7 @@ export default class SceneManager {
     }
   }
 
-  initialize() {
+  setup() {
     // Create instances of all the scenes
     this.sceneContainer = new PIXI.Container()
     this.sceneContainer.name = 'scene_container'

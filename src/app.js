@@ -1,10 +1,10 @@
 import * as PIXI from 'pixi.js'
 const TWEEN = require('@tweenjs/tween.js')
-import { addPositioningToDisplayObject } from './lib/DisplayObjectPositioningMixin.js'
+import DisplayObjectPositioningMixin from './lib/DisplayObjectPositioningMixin.js'
 import SceneManager from './SceneManager.js'
 
-// EXECUTE MIXINS
-addPositioningToDisplayObject()
+// Apply Mixins to enhance PIXI classes
+Object.assign(PIXI.DisplayObject.prototype, DisplayObjectPositioningMixin);
 
 function doMagic() {
   const app = new PIXI.Application({
@@ -24,7 +24,7 @@ function doMagic() {
   const sceneManager = new SceneManager()
 
   app.sceneManager = sceneManager
-  app.sceneManager.initialize()
+  app.sceneManager.setup()
   app.sceneManager.start()
 }
 

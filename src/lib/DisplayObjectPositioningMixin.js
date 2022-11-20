@@ -1,13 +1,13 @@
 import * as PIXI from 'pixi.js';
 const TWEEN = require('@tweenjs/tween.js')
 
-export function addPositioningToDisplayObject() {
-  PIXI.DisplayObject.prototype.moveTo = function(x, y) {
-    this.x = x
-    this.y = y
-  }
+export default DisplayObjectPositioningMixin = {
+  moveTo(x, y) {
+    this.x = x;
+    this.y = y;
+  },
 
-  PIXI.DisplayObject.prototype.tweenMoveTo = function(options) {
+  tweenMoveTo(options) {
     let defaults = {
       x: 0,
       y: 0,
