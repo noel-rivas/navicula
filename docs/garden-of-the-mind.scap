@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ScappleDocument Version="1.2" ID="D6E7F844-5CA1-4F4E-BA37-4CAA0221D9E1">
   <Notes>
-    <Note ID="0" FontSize="28.0" Position="16.0,116.2" Width="486.2">
-      <Appearance/>
-      <String>Garden of the Mind</String>
-      <Formatting>
-        <FormatRange Bold="Yes">0,18</FormatRange>
-      </Formatting>
-    </Note>
-    <Note ID="11" FontSize="12.0" Position="1210.1,130.0" Width="96.0">
+    <Note ID="11" FontSize="12.0" Position="960.2,198.8" Width="96.0">
       <Appearance>
         <Alignment>Left</Alignment>
       </Appearance>
       <String>“The lush area”</String>
     </Note>
-    <Note ID="15" FontSize="12.0" Position="1218.3,159.1" Width="98.0">
+    <Note ID="15" FontSize="12.0" Position="957.4,228.6" Width="98.0">
       <Appearance>
         <Alignment>Left</Alignment>
       </Appearance>
       <String>“The dark spot”</String>
     </Note>
-    <Note ID="16" FontSize="12.0" Position="1104.1,377.0" Width="80.0">
+    <Note ID="16" FontSize="12.0" Position="957.0,307.6" Width="174.9">
       <Appearance>
         <Alignment>Left</Alignment>
       </Appearance>
@@ -29,25 +22,25 @@
         <FormatRange Bold="Yes">0,12</FormatRange>
       </Formatting>
     </Note>
-    <Note ID="17" FontSize="12.0" Position="1104.1,447.6" Width="200.0">
+    <Note ID="17" FontSize="12.0" Position="956.9,377.6" Width="294.9">
       <Appearance>
         <Alignment>Left</Alignment>
       </Appearance>
       <String>The parts of the garden I visit grow and cover a larger part of the terrain.</String>
     </Note>
-    <Note ID="18" FontSize="12.0" Position="1104.1,405.6" Width="200.0">
+    <Note ID="18" FontSize="12.0" Position="956.9,335.6" Width="294.9">
       <Appearance>
         <Alignment>Left</Alignment>
       </Appearance>
       <String>I live in a garden with varied parts (pretty and also fucked-up)</String>
     </Note>
-    <Note ID="19" FontSize="12.0" Position="1104.1,504.0" Width="200.0">
+    <Note ID="19" FontSize="12.0" Position="956.9,419.6" Width="294.9">
       <Appearance>
         <Alignment>Left</Alignment>
       </Appearance>
       <String>As they grow, it’s increasingly easier to stumble upon them.</String>
     </Note>
-    <Note ID="20" FontSize="12.0" Position="1430.6,371.5" Width="97.0">
+    <Note ID="20" FontSize="12.0" Position="961.3,589.8" Width="191.9">
       <Appearance>
         <Alignment>Left</Alignment>
       </Appearance>
@@ -56,58 +49,167 @@
         <FormatRange Bold="Yes">0,15</FormatRange>
       </Formatting>
     </Note>
-    <Note ID="21" FontSize="12.0" Position="1430.6,399.5" Width="200.0">
+    <Note ID="21" FontSize="12.0" Position="961.3,617.8" Width="294.9">
       <Appearance>
         <Alignment>Left</Alignment>
       </Appearance>
       <String>Objetos hechos con frases que corresponden al “mood”: </String>
     </Note>
-    <Note ID="22" FontSize="12.0" Position="1104.1,546.0" Width="200.0">
+    <Note ID="22" FontSize="12.0" Position="956.9,461.4" Width="294.9">
       <Appearance>
         <Alignment>Left</Alignment>
       </Appearance>
       <String>The seeds and frogs from my garden jump to other gardens.</String>
     </Note>
-    <Note ID="23" FontSize="12.0" Position="1104.1,588.0" Width="200.0">
+    <Note ID="23" FontSize="12.0" Position="956.9,503.6" Width="294.9">
       <Appearance>
         <Alignment>Left</Alignment>
       </Appearance>
       <String>I’d better be careful what parts I walk the most!</String>
     </Note>
-    <Note ID="25" FontSize="12.0" Position="20.0,187.8" Width="486.2">
+    <Note ID="26" FontSize="28.0" Position="270.0,265.0" Width="577.9">
+      <Appearance/>
+      <String>Garden of the Mind</String>
+      <Formatting>
+        <FormatRange Bold="Yes">0,18</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="27" FontSize="12.0" Position="961.1,659.9" Width="294.9">
       <Appearance>
         <Alignment>Left</Alignment>
-        <TextColor>0.0 0.0 0.0</TextColor>
       </Appearance>
-      <String>I live in a garden; it’s beautiful — well, most of it.
-
-There is this lush area in the garden that I particularly enjoy walking: it teems with plants and trees of all sizes and shapes that form a verdant view full of textures and delicious smells.
-Frogs sing in clear ponds above which colorful birds and bugs fly around, emitting a lively buzz.
-Wherever I look, something is awe-inspiring: a moth with deep colors, an iridescent slime mold, or just the most perfect new fern leaf, so simple and green.
-
+      <String>Desplazamiento por background, filtros para alterar la atmósfera.</String>
+    </Note>
+    <Note ID="28" FontSize="12.0" Position="961.1,701.9" Width="294.9">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Superposición de objetos de aspecto “digital” sobre una pintura tradicional</String>
+    </Note>
+    <Note ID="29" FontSize="12.0" Position="961.1,743.9" Width="269.9">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Glitch / separación de colores</String>
+    </Note>
+    <Note ID="30" FontSize="12.0" Position="270.0,536.0" Width="577.9">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199762463569641 0.8974809646606445 0.6336728930473328</Border>
+        <Fill>0.7837004065513611 0.9758002161979675 0.6903001070022583</Fill>
+      </Appearance>
+      <String>SCENE2: NOT ALL OF IT IS PRETTY
+WALK TO DARKER AREA; TRANSITION TO DARK
+FADE OUT NICE CRITTERS
+FADE IN CREEPIER PLANTS
 The lush area is not the whole place. There are darker spots; much darker. I’d like to believe that I could walk in the lush landscape without ever visiting the not-so-nice parts, but, for whatever reason, that’s not how it goes. I never know how it happens, but often end up dragging my feet in the nastiest parts of the garden.
 
-The dark area is so muddy it makes my steps sluggish, and my legs feel like waterlogged stumps. It reeks of decomposing frogs — frogs with menacing teeth that, when alive, will always scoff as I walk by. There’s a buzz, too, but it’s not pleasant: it sounds like the unquiet air scratches of an angry Tesla coil.
-Filth and dread float in the stale air surrounding this area and yet, despite its obvious unpleasantness, it has a strange pull on me.
-Once in the dark spot, I’ll take a few more steps out of curiosity or something. The place is nasty but has a decadent allure. As I walk on rotting flowers, I can barely remember the existence of the lush place. It seems so distant, so absurd.
+GLITCHY BUGS; HIDEOUS FROG; HECTIC AND GLITCHY
+The dark area is so muddy it makes my steps sluggish, and my legs feel like waterlogged stumps. It reeks of decomposing frogs — frogs with menacing teeth that, when alive, will always scoff as I walk by. There’s a buzz, too, but it’s not pleasant: it sounds like the unquiet air scratching of an angry Tesla coil.
+Filth and dread float in the stale air surrounding this area and yet, despite its obvious unpleasantness, it has a strange pull on me.</String>
+      <Formatting>
+        <FormatRange Bold="Yes">0,31</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="31" FontSize="12.0" Position="270.0,760.0" Width="577.9">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199762463569641 0.8974809646606445 0.6336728930473328</Border>
+        <Fill>0.7837004065513611 0.9758002161979675 0.6903001070022583</Fill>
+      </Appearance>
+      <String>SCENE3: TRAPPED
+DARKER! TUNNEL VISION, LANDSCAPE NOT VISIBLE
+Once in the dark spot, I’ll take a few more steps out of curiosity or something. The place is nasty but has a decadent allure. As I walk on putrid flowers, I can barely remember the existence of the lush place. It seems so distant, so absurd.
+
+SHAPES MORE DISTORTED; REPETITION; NOT A LANDSCAPE ANYMORE
 It doesn’t just seem distant but pointless and offensive, that lush piece of fantasy; it’s for the gullible, for the rosy-minded simpletons who can’t see the world for the reeking swamp it is. They would just need to see around, to smell the bloated frogs expelling ill plumes as they float upside down.
-“It will all turn to this shit, the entire garden!” I think. “It’s just a matter of time!”
-As I force myself painfully across the sludge, I reason that I might as well burn the so-called fucking garden and be done with it; I could throw teethed frogs onto the birds and maybe have a shit in the rosy pond, too.
+“It will all turn to this shit, the entire garden!” I think. “It’s just a matter of time!”</String>
+      <Formatting>
+        <FormatRange Bold="Yes">0,15</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="32" FontSize="12.0" Position="270.0,928.0" Width="577.9">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199762463569641 0.8974809646606445 0.6336728930473328</Border>
+        <Fill>0.7837004065513611 0.9758002161979675 0.6903001070022583</Fill>
+      </Appearance>
+      <String>SCENE4: SPARK
+DARK FIGURES MADE OUT OF UGLY TEXT; RUMINATION
+As I force myself painfully across the sludge, I reason I might as well burn the so-called fucking garden and be done with it; I could throw teethed frogs onto the birds and maybe have a shit in the rosy pond, too.
 
-Tired, I reflect on the absurdity of it all. In the quiet of my sad and exhausted musings, a glimmer from the lush zone may reach my eye — if I’m lucky — and spark the thought that the lush may be there after all, not so distant, and it may not be for the simpletons who can’t see the swamp but for the fortunate ones that can walk away from it.
+SPARK OF REALITY; A BIRD, GREEN LEAVES
+Tired, I reflect on the absurdity of it all. In the quiet of my sad and exhausted musings, a glimmer from the lush zone may reach my eye — if I’m lucky — and spark the thought that the lush may be there after all, not so distant, and it may not be for the simpletons who can’t see the swamp but for the fortunate ones that can walk away from it.</String>
+      <Formatting>
+        <FormatRange Bold="Yes">0,13</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="33" FontSize="12.0" Position="270.0,1082.0" Width="577.9">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199762463569641 0.8974809646606445 0.6336728930473328</Border>
+        <Fill>0.7837004065513611 0.9758002161979675 0.6903001070022583</Fill>
+      </Appearance>
+      <String>SCENE5: I’M OUT!
+FADE THE DARK OUT; WALK BACK TO REVEAL THE LUSH PLACE
+CUE IN NICE CREATURES
+I’ve always made it back to the verdant embrace of the trees and, while I’m there, I feel like the most fortunate person to ever walk any garden.</String>
+      <Formatting>
+        <FormatRange Bold="Yes">0,16</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="34" FontSize="12.0" Position="270.0,1166.0" Width="577.9">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199762463569641 0.8974809646606445 0.6336728930473328</Border>
+        <Fill>0.7837004065513611 0.9758002161979675 0.6903001070022583</Fill>
+      </Appearance>
+      <String>SCENE6: CULTIVATE (needs work).
+WRITE FIRST; VISUALS LATER.
+Over time, I have noticed that the more I visit the lush or dark areas of the garden, the more they grow. It is as if my steps acted as pollinators that carry flower seeds — or the eggs of teethed frogs —, extending their reach.
 
-I’ve always made it back to the green embrace of the trees and, while I’m there, I feel like the most fortunate person to ever walk any garden.
-Over time, I have noticed that the more I visit the areas of the garden, the more they grow. It is as if my steps acted as pollinators that carry flower seeds — or the eggs of teethed frogs — to extend the areas.
-I’d rather be careful where I spend my time walking.
-</String>
+I’d rather be careful where I spend my time walking.</String>
+      <Formatting>
+        <FormatRange Bold="Yes">0,31</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="35" FontSize="12.0" Position="270.0,312.0" Width="577.9">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199762463569641 0.8974809646606445 0.6336728930473328</Border>
+        <Fill>0.7837004065513611 0.9758002161979675 0.6903001070022583</Fill>
+      </Appearance>
+      <String>SCENE1: LUSH
+OPEN VIEW OF THE GARDEN
+I live in a garden that is beautiful — well, most of it.
+
+ZOOM TO LUSH AREA
+There is this lush area that I particularly enjoy walking: it teems with plants and trees of all sizes and shapes that form a verdant view full of textures and delicious smells.
+
+APPEAR: FROGS, BUGS
+Frogs sing in clear ponds above which colorful birds and bugs fly around, emitting a lively buzz.
+Wherever I look there is something awe-inspiring: a moth with deep colors, an iridescent slime mold, or just the most perfect new fern leaf, so green and elegant.</String>
+      <Formatting>
+        <FormatRange Bold="Yes">0,12</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="40" FontSize="12.0" Position="270.0,494.0" Width="577.9">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1">0.7199762463569641 0.8974809646606445 0.6336728930473328</Border>
+        <Fill>0.7837004065513611 0.9758002161979675 0.6903001070022583</Fill>
+      </Appearance>
+      <String>INTRO: TITLE
+Title over BW image.</String>
     </Note>
   </Notes>
   <BackgroundShapes/>
   <Stacks>
     <Stack>16, 18, 17, 19, 22-23</Stack>
-    <Stack>20-21</Stack>
+    <Stack>20-21, 27-29</Stack>
+    <Stack>26, 35, 40, 30-34</Stack>
   </Stacks>
-  <AutoFit>11, 15-16, 20</AutoFit>
+  <AutoFit>11, 15</AutoFit>
   <NoteStyles>
     <Style Name="Bubble (Blue)" ID="CFFEFC9C-3550-4E77-9D2E-1778FEDE102F" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
       <BorderThickness>1</BorderThickness>
