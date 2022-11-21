@@ -1,7 +1,7 @@
 import * as PIXI from 'pixi.js';
 const TWEEN = require('@tweenjs/tween.js')
 
-export default DisplayObjectPositioningMixin = {
+const DisplayObjectPositioningMixin = {
   moveTo(x, y) {
     this.x = x;
     this.y = y;
@@ -46,3 +46,5 @@ export default DisplayObjectPositioningMixin = {
       return t
   }
 }
+
+export default DisplayObjectPositioningMixin;
